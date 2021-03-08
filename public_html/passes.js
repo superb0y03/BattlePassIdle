@@ -10,6 +10,6 @@ var basePass = {
         "id":1,
         "reqs":function() { return number===5 },
         "isPrest":false,
-        "effect":function() { gen1["unlocked"] = true; console.log("gen1 unlocked"); addButton(gen1)}
+        "effect":function() { gen1.unlocked = true; console.log("gen1 unlocked"); addButton(gen1)}
     }]
 };
